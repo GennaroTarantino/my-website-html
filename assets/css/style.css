@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ em {
+     font-style: italic;
+ }
+
+ strong {
+     font-weight: bold;
+     /* or 700 */
+ }
+
+ body {
+     background-color: black;
+     font-family: 'Roboto', sans-serif;
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 1.8em;
+     color: #5D6063;
+     border: none;
+
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     line-height: 1.3em;
+     font-weight: normal;
+     font-style: normal;
+ }
+
+ .link-bar {
+     margin: 0 auto;
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-around;
+     text-align: right;
+     color: #FFF;
+ }
+
+ nav a {
+     display: flex;
+     align-items: right;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     color: gray;
+     text-decoration: none;
+ }
+
+ .page {
+    background-image: url("/assets/img/intro-metal.jpg");
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: 1920px 1280px;
+    align-items: center;
+}
+.intro {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.page .intro h1 {
+    display: none;
+    color: #FFF;
+    font-weight: 300;
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.page-1 {
+    background-image: url("/assets/img/lightining-dark.jpg");
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-size: 1920px 1280px;
+    justify-content: center;
+    align-items: center;
+}
+.page-1 section {
+    background-color: black;
+    opacity: 80%;
+    height: 100%;
+
+}
+.page-2 {
+    background-image: url("/assets/img/metal-floor-big.jpg");
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-size: 1920px 1280px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.page-2 section {
+    background-color: black;
+    opacity: 80%;
+    height: 100%;
+
+}
+
+.page-3 {
+    background-image: url("/assets/img/gear-index-medium.jpg");
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-size: 1920px 1280px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.page-3 section {
+    background-color: black;
+    opacity: 80%;
+    height: 100%;
+
+}
+.page-contact {
+    background-image: url("/assets/img/contact.jpg");
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+
+}
+.page-contact .intro {
+    background-color: whitesmoke;
+    opacity: 40%;
+    border-radius: 6px;
+
+}
+
+.page-contact .intro h1 {
+    color: black;
+    font-weight: 300;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 100%;
+}
+
+ .section {
+     display: flex;
+     max-width: 540px;
+     background-color: black;
+     opacity: 80%;
+     height: 100%;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .section h2 {
+     font-size: 30px;
+     margin-bottom: .7em;
+     color: #FFF;
+
+ }
+
+ .section-list {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     width: 540px;
+     max-width: 540px;
+     height: 100%;
+     text-align: center;
+     flex-direction: column;
+ }
+
+ .section-list li {
+     list-style-type: none;
+ }
+
+ .section-list h1 {
+    color: aliceblue;
+    font-size: 80px;
+    opacity: 100%;
+    text-align: center;
+}
+ .section-list h2 {
+    opacity: 100%;
+    text-align: center;
+}
+
+ .section-skill {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: column;
+
+     max-width: 540px;
+     width: 540px;
+     height: 100%;
+ }
+.section-skill h2{
+    text-align: center;
+}
+ .contact {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .information {
+     position: relative;
+     bottom: -100px;
+
+
+ }
+
+ .information a {
+     color: aliceblue;
+     font-weight: 100;
+     font-family: 'Times New Roman', Times, serif;
+     text-align: center;
+ }
+
+ .form {
+     background-color: black;
+     opacity: 65%;
+     border: 1px solid #D6D9DC;
+     border-radius: 3px;
+
+
+     padding: 50px;
+
+     text-align: center;
+
+ }
+
+ .form-row {
+     margin-bottom: 40px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     flex-wrap: wrap;
+ }
+
+ .form label {
+     color: aliceblue;
+ }
+
+@media only screen and (max-width: 700px) {}
+@media only screen and (min-width: 701px) {}
